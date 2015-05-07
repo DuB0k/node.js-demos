@@ -73,6 +73,7 @@ Debug express app:
 DEBUG=express:* node ./bin/www
 ```		
 Everything works except add user POST :(
+
 *Final fix:* POST error fixed using an especific version of mongodb in package.json:
  "mongodb": "~1.4"
  
