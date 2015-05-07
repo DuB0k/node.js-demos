@@ -67,6 +67,11 @@ npm install
 mkdir data
 npm start
 ```
-		
+
+Debug express app:
+```javascript
+DEBUG=express:* node ./bin/www
+```		
+Everything works except add user POST :(
 I've followed this tutorial:
 [nodetest2](http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/)
